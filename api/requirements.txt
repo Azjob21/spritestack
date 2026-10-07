@@ -1,0 +1,27 @@
+# SpriteStack API Requirements
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# ML / NLP
+transformers==4.35.2
+torch==2.2.2
+torchvision==0.17.2
+pillow==10.1.0
+numpy==1.24.3
+faster-whisper==1.2.1
+
+# Text Processing
+pyspellchecker==0.8.1
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Utilities
+python-multipart==0.0.6
+aiofiles==23.2.1

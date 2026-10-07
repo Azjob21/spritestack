@@ -1,0 +1,70 @@
+# ─── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+MANIFEST
+
+# ─── Virtual Environments ────────────────────────
+venv/
+ENV/
+env/
+.venv/
+
+# ─── IDE / Editor ────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Testing ─────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── Build Artifacts ─────────────────────────────
+build/
+dist/
+*.spec
+
+# ─── AI Models & Weights (kept in separate repos) 
+api/models/
+api/Public-Prompts-Pixel-Model.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.bin
+*.ckpt
+*.safetensors
+
+# ─── API test / debug artifacts ──────────────────
+api/debug_sprite.png
+
+# ─── Heavy / Generated Documentation ─────────────
+docs/
+
+# ─── Node (if used) ──────────────────────────────
+node_modules/
+npm-debug.log
+
+# ─── Temp / Logs ─────────────────────────────────
+*.tmp
+*.temp
+*.log
+
+# ─── Agent / Session artifacts ───────────────────
+AGENT_PROMPT.md
+
+# ─── Project-specific generated files ────────────
+spritestack_ui.html

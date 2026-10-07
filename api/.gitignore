@@ -1,0 +1,43 @@
+# API .gitignore - Exclude heavy models and build artifacts
+
+# Large ML models and generated assets (see MODELS_SETUP.md)
+/models/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+._*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+debug_sprite.png
+
+# Integration packages (optional, managed separately)
+/pixel_rife_rgba_integration_package/

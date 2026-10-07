@@ -1,0 +1,63 @@
+SPRITESTACK STUDIO — AI GENERATION PROMPT GUIDE
+================================================
+
+PROMPT STRUCTURE
+----------------
+A strong prompt has three parts:
+
+  [Subject] + [Style modifiers] + [Palette / lighting hint]
+
+Examples:
+  "worn knight armour, dark fantasy, muted blues and browns"
+  "wooden treasure chest, outlined pixel art, warm candlelight"
+  "stone dungeon wall tile, dithered shading, grey and mossy green"
+  "cartoon cloud, cel shaded, bright pastel palette"
+
+
+STYLE MODIFIER TAGS (click tags in the panel to add them)
+----------------------------------------------------------
+  outlined       — hard black pixel border around the shape
+  dithered       — checkerboard pattern for gradient simulation
+  cel shaded     — flat fills with a single hard shadow pass
+  pixel outline  — thin 1-pixel crisp outline
+  metallic       — reflective highlight + dark edge shading
+  worn           — scratches, chips, worn surface detail
+  top-down       — overhead perspective
+  isometric      — classic 45° angled view
+  dark fantasy   — desaturated dark palette with accent highlights
+  bright palette — saturated, high contrast colours
+
+
+SELECTION-BASED GENERATION
+---------------------------
+1. Make a selection with S (rectangle), A (lasso), or W (magic wand).
+2. Switch the mode tab to "Fill Selection" or "Inpaint Region".
+   - Fill Selection: generates only inside the selection boundary.
+   - Inpaint Region: sends surrounding context pixels too — better
+     for blending seamlessly into existing art.
+3. Choose your Output Mode:
+   - New layer       — safest; result is on its own layer.
+   - Replace selection — writes pixels directly into the active layer.
+   - Blend into layer — writes at 70% opacity; original shows through.
+
+
+STRENGTH SETTING
+----------------
+  1–3  Subtle: slight colour/texture shift, original shape preserved.
+  4–6  Moderate: clear changes, general shapes retained.
+  7–10 Strong: near-full repaint of the region.
+
+
+PALETTE LOCK
+------------
+Forces output pixels to snap to colours already present in the
+active layer. Prevents new colours entering the palette.
+Best used when you have a strict colour budget for your sprite sheet.
+
+
+TIPS
+----
+• Undo (Ctrl+Z) rolls back any AI generation.
+• Use Variations = 2 or 4 to get multiple options at once.
+• Describe what you DON'T want if the output keeps repeating an
+  unwanted feature, e.g. "no blue tint, no glow".
